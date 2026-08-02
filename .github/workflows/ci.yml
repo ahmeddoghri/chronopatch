@@ -28,3 +28,5 @@ jobs:
         run: python examples/quickstart.py
       - name: Run benchmark
         run: python -m chronopatch.benchmark
+      - name: Run generalization check
+        run: python -m chronopatch.eval_v2
