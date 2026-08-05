@@ -2,7 +2,6 @@
 
 Time-series foundation models are billion-parameter checkpoints trained to relearn "recent history rhymes." chronopatch keeps that one idea and throws out the billion parameters.
 
-![CI](https://github.com/ahmeddoghri/chronopatch/actions/workflows/ci.yml/badge.svg)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![deps](https://img.shields.io/badge/runtime%20deps-none-success)
 ![license](https://img.shields.io/badge/license-MIT-black)
