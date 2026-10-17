@@ -2,9 +2,13 @@
 
 Time-series foundation models are billion-parameter checkpoints trained to relearn "recent history rhymes." chronopatch keeps that one idea and throws out the billion parameters.
 
+[![tests](https://github.com/ahmeddoghri/chronopatch/actions/workflows/tests.yml/badge.svg)](https://github.com/ahmeddoghri/chronopatch/actions/workflows/tests.yml)
 ![python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![deps](https://img.shields.io/badge/runtime%20deps-none-success)
 ![license](https://img.shields.io/badge/license-MIT-black)
+[![case study](https://img.shields.io/badge/case%20study-adoghri.com-e0703e)](https://adoghri.com/project-26.html)
+
+![chronopatch](docs/cover.jpg)
 
 Chronos, MOMENT, and Moirai made forecasting feel like a language modeling
 problem, which is a fun trick but a heavy way to ask "what usually happens
