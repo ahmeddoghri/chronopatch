@@ -60,8 +60,10 @@ comparison. Details below.
 and `patch_forecast` both hardcode `season=7` as their default. The
 benchmark measures whether the model can exploit a period-7 signal in
 data built to have a period-7 signal, and the coverage figure rests on
-just 14 test points, small enough that a 95% confidence interval on the
-observed 0.93 spans roughly [0.79, 1.00].
+just 14 test points (13 covered), small enough that a 95% Wilson confidence
+interval on the observed 0.93 spans roughly [0.69, 0.99]. The textbook normal
+approximation would say [0.79, 1.00], but it is unreliable at n = 14 and
+understates the uncertainty.
 
 ```bash
 python -m chronopatch.eval_v2
